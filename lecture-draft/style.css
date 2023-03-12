@@ -1,8 +1,44 @@
 body {
-	background-color: gray;}
+	background-color: mintcream;}
 h1 {
 	text-align: center;
-	color: red;}
-p {
+	color: red;
+	font-family: papyrus;
+	font-style: bold;
+	font-size: 60px;
+}
+.intro {
 	text-align: center;
-	color: blue;}
+	color: black;}
+.logo {
+	width: 100%;
+	overflow: hidden;
+	height:100%;
+	border-color: black;
+	display: inline-block;}
+a {
+	text-decoration: none;
+}
+.button button {
+	background-color: #04AA6D;
+	border: 1px solid green;
+	color: white;
+	cursor: pointer;
+	float: left;
+	padding: 10px 24px;
+	margin: 0.5px;
+	font-family: sans-serif;
+}
+.button {
+	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+}
+.button button:not(:last-child){
+	border-right:none;
+}
+.button:after {
+	content:"";
+	clear: both;
+	display; table
+}
